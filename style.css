@@ -1,0 +1,57 @@
+:root{
+    /* Units */
+    --unit-xss: 15px;
+    --unit-xs: 30px;
+    --unit-s: 42px;
+    --unit-m: 80px;
+    --unit-l: 150px;
+
+    /*color*/
+    --color-primary1: #fff;
+    --color-primary2: #707070;
+    --color-cd: #c087b2;
+    --color-illu: #e5c026;
+    --color-print: #1ba2d9;
+    --color-spatial: #56d843;
+    --color-ux: #006d5f;
+    --color-threed: #9455b4;
+    --color-ar: #2e508e;
+    --color-coding: #f00;
+
+
+
+
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1 {
+    background-color: var(--color-primary1);
+    color: var(--color-illu);
+    font-family: 'Abel', sans-serif;
+    font-size: 40;
+    text-decoration: none;
+    list-style-type: disc;
+    display:flex;
+    justify-content: space-around;
+}
+
+.site-nav-list li{
+    text-decoration: none;
+    margin-right: 1em;
+    text-decoration: none;
+    justify-content: space-around;
+    text-align: center;
+   
+
+}
+.all-my-work{
+    text-decoration: none;
+    color: var(--color-primary2);
+    font-family: 'Codystar', cursive;
+    font-size: 70px; 
+
+}
